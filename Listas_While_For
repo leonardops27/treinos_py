@@ -1,0 +1,76 @@
+# treinos_py
+Exemplo de listas com loop e troca de itens.
+Imagine um teclado numérico e quadrado'0' como saída. Tipo um tabuleiro de jogo da velha porém podendo aumentar o tamanho.
+
+Feito em loop com While e repetição com For, contém entrada de dados para o item específico da 'lista' que deseja acessar/alterar. Serve também para a criação de menu para outros códigos, como conjunto de chaves.
+Não inicio declaramos como listas
+
+
+a = [[1],  [2],  [3]]
+
+b = [[4],  [5],  [6]]
+
+c = [[7],  [8],  [9]]
+
+O = a,b,c
+
+Observe que para fazer uma impressão em O, teve que ser uma variável com as Listas, funcionou leve e simples.
+Depois, podemos iniciar o loop com While e adicionar os parâmetros dentro de "While". Imprimindo a repetição para e criados os parâmetros de troca com os IFs.
+Observe que cada IF fica responsável por um número e cada número recebe o valor que assim desejar.
+
+
+while True:
+
+    for x in O:
+    
+        print (' '*10, x)
+        
+    print()
+    
+    mudança = int(input('      Escolha o número("0" Sair): '))
+    
+    if mudança == 0:
+    
+        print(' '*5,'='*3,'Até uma outra vez!!!','='*3)
+        
+        break
+        
+    if mudança == 1:
+    
+        O[0][0] = 'x'
+        
+    if mudança == 2:
+    
+        O[0][1] = 'x'
+        
+    if mudança == 3:
+    
+        O[0][2] = 'x'
+        
+
+Repita o parâmetro IF para cada número.
+Pronto, para testar Todos os números serão trocados por "x" para fim de explicação mas pode ser alterado pelo desejado.
+
+      
+           [[1], [2], [3]]
+           [[4], [5], [6]]
+           [[7], [8], [9]]
+
+      Escolha o número("0" Sair): 5
+           [[1], [2], [3]]
+           [[4], 'x', [6]]
+           [[7], [8], [9]]
+
+      Escolha o número("0" Sair): 1
+           ['x', [2], [3]]
+           [[4], 'x', [6]]
+           [[7], [8], [9]]
+
+
+Observe que a escolha foi '5' e foi trocado por 'x'.
+Na continuação do "While" (loop) retornou o "print" com o "x" em "5" na próxima escolha "1". Mantendo o resultado na impressão do resultado.
+
+Lembrar sempre de testar configurações para analisar os resultados. Ampliar o 'imprimir' em outros ajuda a aprender mais novos caminhos.
+
+Espero ter ajudado. Abraço todos!
+Leonardo Santos 28/05/2022
