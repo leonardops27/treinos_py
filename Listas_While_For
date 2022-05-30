@@ -68,7 +68,7 @@ Pronto, para testar Todos os números serão trocados por "x" para fim de explic
 
 
 Observe que a escolha foi '5' e foi trocado por 'x'.
-Na continuação do "While" (loop) retornou o "print" com o "x" em "5" na próxima escolha "1". Mantendo o resultado na impressão do resultado.
+Na continuação do "While" (loop) retornou o "print" com o "x" em "5" na próxima escolha "1". Mantendo a repetição do resultado na impressão.
 
 Lembrar sempre de testar configurações para analisar os resultados. Ampliar o 'imprimir' em outros ajuda a aprender mais novos caminhos.
 
